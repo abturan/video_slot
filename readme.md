@@ -16,4 +16,9 @@ git clone https://github.com/abturan/video_slot.git
 2. ```app/Console/Commands/Slot.php```: Main command file wich the game run on.
 3. ```app/Http/Controllers/SlotMachine.php```: Main controller file.
 4. ```app/Console/Kernel.php```: The file in which the console file is integrated into the system.
+4. ```tests/SlotTest.php```: A unit test file written to simulate the sample given on the test paper.
 
+## Commands
+
+1. ```php artisan slot```: For to start the application
+1. ```phpunit```: For to run the test to simulate the sample given on the test paper
