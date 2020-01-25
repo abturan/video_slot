@@ -1,22 +1,19 @@
-# Lumen PHP Framework
+# Video Slot Backend Test
+This is a Backend Test for Vide Slot. This Backend Test runs on the laravel console and using Laravel Lumen. 
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+## Installation
+1. Download as .zip or clone this repo using https://github.com/abturan/video_slot.git
+```console
+git clone https://github.com/abturan/video_slot.git
+```
+2. Run ```composer install``` to install the project dependencies
+3. Type ```php artisan slot``` to play!   
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
 
-## Official Documentation
+## Created files
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+1- ```app/Enums/Config.php```: It is the file where the symbols, winning tables, paylines etc used in the game are determined.
+2- ```app/Console/Commands/Slot.php```: Main command file wich the game run on.
+3- ```app/Http/Controllers/SlotMachine.php```: Main controller file.
+4- ```app/Console/Kernel.php```: The file in which the console file is integrated into the system.
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# video_slot
