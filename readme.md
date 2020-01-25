@@ -12,8 +12,8 @@ git clone https://github.com/abturan/video_slot.git
 
 ## Created files
 
-1- ```app/Enums/Config.php```: It is the file where the symbols, winning tables, paylines etc used in the game are determined.
-2- ```app/Console/Commands/Slot.php```: Main command file wich the game run on.
-3- ```app/Http/Controllers/SlotMachine.php```: Main controller file.
-4- ```app/Console/Kernel.php```: The file in which the console file is integrated into the system.
+1. ```app/Enums/Config.php```: It is the file where the symbols, winning tables, paylines etc used in the game are determined.
+2. ```app/Console/Commands/Slot.php```: Main command file wich the game run on.
+3. ```app/Http/Controllers/SlotMachine.php```: Main controller file.
+4. ```app/Console/Kernel.php```: The file in which the console file is integrated into the system.
 
