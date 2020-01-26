@@ -23,3 +23,6 @@ git clone https://github.com/abturan/video_slot.git
 
 1. ```php artisan slot```: For to start the application
 1. ```phpunit```: For to run the test to simulate the sample given on the test paper
+
+## Validity
+    This repo will be deleted at 7th February
