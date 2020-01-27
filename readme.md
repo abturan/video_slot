@@ -1,5 +1,5 @@
 # Video Slots Backend Test
-This is a Backend Test for Video Slots. This Backend Test runs on the laravel console and using Laravel Lumen. 
+This is a Backend Test for Video Slots which runs on the laravel console and using Laravel Lumen micro fremework. 
 
 ## Installation
 1. Download as .zip or clone this repo using https://github.com/abturan/video_slot.git
